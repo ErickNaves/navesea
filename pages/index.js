@@ -68,7 +68,7 @@ function Home() {
   return (
     <div className={styles.container}>
       <h1 className={styles.subtitle}>
-        Tu vai no vôlei <strong>{formatDate(nextVolleyDay)}</strong> ?
+        Tu vai no vôlei <strong>{formatDate(nextVolleyDay)}</strong> ??
       </h1>
 
       <div className={styles.radioGroup}>
