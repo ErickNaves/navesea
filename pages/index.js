@@ -83,7 +83,7 @@ function Home() {
             checked={choice === "yes"}
             onChange={() => setChoice("yes")}
           />
-          Sim
+          Simaaass
         </label>
 
         <label style={{ marginLeft: 16 }}>
