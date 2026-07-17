@@ -17,7 +17,7 @@ export default function StatusPage() {
 }
 
 function UpdatedAt() {
-    const { isLoading, data } = useSWR("/api/v1/status", fetchApi, {
+  const { isLoading, data } = useSWR("/api/v1/status", fetchApi, {
     refreshInterval: 5000,
   });
 
@@ -27,7 +27,7 @@ function UpdatedAt() {
   }
 
   return <div>Última atualização: {updatedAtText}</div>;
-};
+}
 
 function DatabaseStatus() {
   const { isLoading, data } = useSWR("/api/v1/status", fetchApi, {
@@ -56,4 +56,4 @@ function DatabaseStatus() {
       <div>{databaseStatusInformation}</div>
     </>
   );
-};
+}
